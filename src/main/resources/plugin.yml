@@ -1,0 +1,4 @@
+name: lz's partfriend
+version: '${project.version}'
+main: liangzi.com.liangzi.part
+api-version: 1.19
