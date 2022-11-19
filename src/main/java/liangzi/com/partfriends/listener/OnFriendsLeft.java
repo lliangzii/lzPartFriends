@@ -17,12 +17,6 @@ import liangzi.com.partfriends.Part;
 public class OnFriendsLeft implements Listener {
     @EventHandler
     public void onFriendsLeft(PlayerQuitEvent e) {
-        final Player p = e.getPlayer();
-        (new BukkitRunnable() {
-            public void run() {
-                p.sendMessage("1");
-                p.sendMessage("你当前有 %% 位在线好友");
-            }
-        }).runTaskLater(Part.plugin,2L);
+
     }
 }
